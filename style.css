@@ -6,10 +6,8 @@
 }
 
 :root {
-    --primary-color: #83c5be;
-    /* b8b8ff */
-    --secondary-color: #006d77;
-    /* 9381ff */
+    --primary-color: #b8b8ff;
+    --secondary-color: #9381ff;
 }
 
 body {
