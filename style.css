@@ -16,6 +16,7 @@ body {
     font-weight: 400;
     font-style: normal;
     font-variation-settings: "wdth" 100;
+    background-color: var(--primary-color);
 }
 
 main {
@@ -23,8 +24,7 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 92vh;
-    background-color: var(--primary-color);
+    height: 90vh;
 }
 
 h1 {
@@ -139,19 +139,18 @@ img {
     justify-content: space-between;
 }
 
-footer {
-    position: relative;
-    bottom: 0;
+footer{
+    width:100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    bottom: 1vmin;
     flex-direction: column;
-    height: 8vh;
     text-align: center;
-    background-color: var(--primary-color);
 }
 
-.social-icons a {
+.social-icons a{
     color: black;
     margin-right: 2vmin;
 }
